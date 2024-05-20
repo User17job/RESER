@@ -11,10 +11,13 @@ function App() {
   return (
     <>
    <Toaster position="top-center" reverseOrder={false} />
+
   <QueryClientProvider client={client}>
     <Switch>
       <Route path="/" component={HotelList}/>
+
       <Route path="/hotel/:id" component={HotelDetails}/>
+      
     </Switch>
     <Switch>
       <Route path="/" component={CarList}/>

@@ -1,5 +1,5 @@
- import { useQuery } from "@tanstack/react-query";
- import { useRoute } from "wouter";
+//  import { useQuery } from "@tanstack/react-query";
+//  import { useRoute } from "wouter";
  import BookingForm from "./BookingForm";
  import Card from "@mui/material/Card";
  import CardActions from "@mui/material/CardActions";
@@ -7,31 +7,16 @@
  import CardMedia from "@mui/material/CardMedia";
  import Typography from "@mui/material/Typography";
 
-const fetchHotel = async (id) => {
-const response = await fetch(`http://localhost:2005/hotels/${id}`);
-	if (!response.ok) {
-		throw new Error("Network response was not ok");
-	}
-	return response.json();
-};
+ import data from "./db.json"
 
-const HotelDetails = () => {
-	const [match, params] = useRoute("/hotel/:id");
-	const {
-		data: hotel,
-		isLoading,
-		error,
-	} = useQuery({
-		queryKey: ["hotel", params], // por si pasa algo queryKey estaba asi=queryKey:["hotel", params.id]= pero lo quite porque al recargar me devolvia null
-		queryFn: () => fetchHotel(params.id),
-	});
+ const HotelDetails = (params) => {
+	const hotelId = params.params.id;
+	const hotel = data.hotels.find(h => h.id == hotelId);
+	console.log('Hotel ID:', params.params.id);
 
-	if (isLoading) {
-		return <div>Loading...</div>;
-	}
 
-	if (error) {
-		return <div>Error fetching Hotel Details! {error.message}</div>;
+	if (!hotel) {
+		return <div>Hotel no encontrado</div>;
 	}
 
 	return (

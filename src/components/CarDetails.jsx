@@ -1,5 +1,5 @@
-import { useQuery } from "@tanstack/react-query";
-import { useRoute } from "wouter";
+import data from './db.json';
+
 import SaleForm from "./SaleForm";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
@@ -7,34 +7,17 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 
+const CarsDetails = (params) => {
 
+const carId = params.params.id;
+	const carro = data.carros.find(h => h.id == carId);
+	console.log('Hotel ID:', params.params.id);
+// console.log(carro)
 
-const fetchHotel = async (id) => {
-const response = await fetch(`http://localhost:2005/carros/${id}`);
-   if (!response.ok) {
-       throw new Error("Network response was not ok");
-   }
-   return response.json();
-};
+	if (!carro) {
+		return <div>carro no encontrado</div>;
+	}
 
-const CarsDetails = () => {
-   const [match, params] = useRoute("/carro/:id"); // match no lo parece pero influye en el resultado 
-   const {
-       data: carro,
-       isLoading,
-       error,
-   } = useQuery({
-       queryKey: ["carro", params.id],
-       queryFn: () => fetchHotel(params.id),
-   });
-
-   if (isLoading) {
-       return <div>Loading...</div>;
-   }
-
-   if (error) {
-       return <div>Error fetching Hotel Details! {error.message}</div>;
-   }
 
    return (
     <main>

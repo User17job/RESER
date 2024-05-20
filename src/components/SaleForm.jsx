@@ -35,18 +35,18 @@ function SaleForm({ carro }) {
             <br />  
 
             <fieldset required>
-             <legend>How old are you?</legend> 
+             <legend>Do you live in Santo Domingo?</legend> 
                 <label htmlFor="option1">
-                <Input type="radio" id="option1" value={"yes"} {...register("AGEValidation",{required: true} )} checked />Yes
+                <Input type="radio" id="option1" value={"yes"} {...register("location Validation")} />Yes
                
                 </label>
 
                 <label htmlFor="option2">
-                <Input type="radio" id="option2" value={"Nop"} {...register("AGE validation")} />Nop
+                <Input type="radio" id="option2" value={"Nop"} {...register("location validation")} />Nop
                 </label>
             </fieldset>    
             {errors.AGEValidation && (
-                <Typography style={{color:"red"}}>You have to be more Than 18</Typography>
+                <Typography style={{color:"red"}}>please choose one option</Typography>
             )}  
           <br />
             <Button variant="contained" type="submit">Rent</Button>

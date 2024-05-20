@@ -1,0 +1,124 @@
+{
+    "hotels":[
+        {
+            "id":1,
+            "name":"Homewood Suites By Hilton Santo Domingo",
+            "description":"⭐⭐⭐",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/423167677.jpg?k=413edca653a580c2d3a2bd520be8e208469aaccd110fe05bc1847c9aca906358&o=&hp=1",
+            "image2":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/494373730.jpg?k=2482b4a391635b2e24e45b45578a810ff644c8dc04e536d0f9cad057beb9a2bc&o=&hp=1",
+            "acerca":"Homewood Suites By Hilton Santo Domingo está en Santo Domingo, a pocos pasos de Centro comercial Blue Mall, y dispone de alojamiento con restaurante, parking privado gratis, piscina al aire libre y centro de fitness. Este hotel de 3 estrellas ofrece terraza y tiene habitaciones con aire acondicionado y wifi gratis. El alojamiento está a 1,4 km del centro de la ciudad y a 1,8 km de Centro comercial Ágora Mall."
+        },
+        {
+            "id":2,
+            "name":"Holiday Inn Santo Domingo, an IHG Hotel",
+            "description":"⭐⭐⭐⭐",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/401661746.jpg?k=552b9f98366b9dfa99a4bc9876017e8e3724e225b73b35974d35c872a549f6c0&o=&hp=1",
+            "image2":"https://i.travelapi.com/lodging/4000000/3030000/3024000/3023962/5a2b57f8_z.jpg",
+            "acerca":"Este hotel de Santo Domingo está situado a pocos pasos de la estación de metro y autobús y del estadio olímpico. Alberga el restaurante de servicio completo Aromas y cuenta con conexión a internet de alta velocidad gratuita.       Además, el Santo Domingo Holiday Inn cuenta con floristería, tienda de regalos, piscina iluminada al aire libre, gimnasio y tienda. También hay servicios de niñera y de cambio de divisa."
+        },
+        {
+            "id":3,
+            "name": "Embassy Suites by Hilton Santo Domingo",
+            "description":"⭐⭐⭐⭐",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/486115011.jpg?k=9cad29a9282a96c4e464fbc3ab74a9bef5297cae076c7d8e471b133acb0a155d&o=&hp=1",
+            "image2":"https://cf.bstatic.com/xdata/images/hotel/max1280x900/486115029.jpg?k=3c0a8031991e8d9e81d689f5693f2de4b8d8972f71f3f73d07472ad33277e096&o=&hp=1",
+            "acerca":"El Embassy Suites by Hilton Santo Domingo se encuentra en el corazón del distrito financiero, en la impresionante torre Westpark (ocupa hasta la planta 27). El hotel ofrece vistas al mar Caribe y a las montañas y está ubicado a 750 metros del parque La Arboleda y a pocos pasos del Palacio de los Deportes Félix Sánchez y del Estadio Olímpico, así como de restaurantes y centros comerciales."
+        },
+        {
+            "id":4,
+            "name":"Hotel Aladino",
+            "description":"⭐⭐⭐",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/66287090.jpg?k=d35d04eeb6ef6aba117ae008b003d931e07b23025422071d036b415b8042542e&o=&hp=1",
+            "image2":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/181873644.jpg?k=ecd1e726613ec5b5195121d97f8b2dbea596b38e60bb32b03c178d3f31bbfe81&o=&hp=1",
+            "acerca":"Este hotel, situado en Santo Domingo, a solo 5 minutos a pie del Museo de Arte Bellapart, en el centro del distrito financiero, ofrece gimnasio, conexión WiFi gratuita y restaurante que sirve un desayuno buffet gratuito todos los días.           Las sencillas habitaciones del Aladino Aparta Hotel tienen aire acondicionado, conexión WiFi gratuita, TV por cable, caja fuerte, nevera pequeña y baño privado con artículos de aseo gratuitos. Algunas también disponen de zona de cocina."
+        },
+        {
+            "id":5,
+            "name":"Casas del XVI",
+            "description":"⭐⭐⭐⭐⭐",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/98609568.jpg?k=be0ba3662309c381074a98c858cee34c7e4c7577aed4e604e3cf6d8195b8e37a&o=&hp=1",
+            "image2":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/90648027.jpg?k=e0f63c6769c2d1622e9c646fba00b30bde8aea7eb5b17546d232cc194cab5c69&o=&hp=1",
+            "acerca":"El establecimiento Casas del XVI se encuentra en la zona colonial, a 400 metros de la catedral de Santo Domingo, y ofrece habitaciones elegantes, terraza jardín y zona de salón. Incluye conexión Wi-Fi gratuita y desayuno continental gratuito."
+        },
+        {
+            "id":6,
+            "name":"El Embajador, a Royal Hideaway Hotel",
+            "description":"⭐⭐⭐⭐⭐",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/140146860.jpg?k=81a145082849efe62b56a756653785b99fff305b7faaf2b6709280edd8725817&o=&hp=1",
+            "image2":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/140146817.jpg?k=0e1d62af752889244d9794ccaa18af6b88e90759c86a99d5763c1453ef8e4c29&o=&hp=1",
+            "acerca":"Las habitaciones de El Embajador, a Royal Hideaway Hotel cuentan con un mobiliario elegante, comodidades modernas y unas vistas impresionantes a la capital de la República Dominicana. Además, gozan de la tranquilidad de un barrio residencial exuberante."
+        },
+        {
+            "id":7,
+            "name":"Catalonia Santo Domingo ",
+            "description":"⭐⭐⭐⭐⭐",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/122155593.jpg?k=1ef11c0e9936b18d64ef5a2caa0bd9dd0d4937b6c7613e60b8a2de2be6124aaf&o=&hp=1",
+            "image2":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/272462657.jpg?k=a4267de8aad3f80b251875890a72fbdf4b631e37cc067fa68affd7b8c944e310&o=&hp=1",
+            "acerca":"Las habitaciones están decoradas según las necesidades de los clientes de negocios e incluyen WiFi gratuita de alta velocidad. Las habitaciones están equipadas con TV. Algunas habitaciones tienen vistas al mar, a la piscina o la ciudad. La zona de fitness, el restaurante y los bares tienen vistas con encanto."
+        },
+        {
+            "id":8,
+            "name":"Barceló Santo Domingo",
+            "description":"⭐⭐⭐⭐⭐",
+            "image":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/253396812.jpg?k=a2cd0dbca6d156d1b364075e4472f34dbfac54cf8a895255f4ec467853dd4193&o=&hp=1",
+            "image2":"https://cf.bstatic.com/xdata/images/hotel/max1024x768/298192572.jpg?k=9858d12ed94ac7d2b78b38bc1357dd5eeb621be3f10a962120a991f78c4d948e&o=&hp=1",
+            "acerca":"El Barceló Santo Domingo, situado en el centro histórico de Santo Domingo, ofrece instalaciones prácticas y está bien comunicado con los hermosos monumentos de la capital. El establecimiento facilita aparcamiento gratuito y se halla a solo 25 minutos en coche del aeropuerto internacional de Las Américas. Hay WiFi gratuita en todas las habitaciones."
+        }
+    ],
+    "carros": [
+        {
+            "id": "01",
+            "name": "Mustang",
+            "model": "Shelby GT500",
+            "Marca": "Ford",
+            "año": "2020",
+            "image": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438293753_1129574884856172_2228784096553828672_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yHNwBw4RcG0Q7kNvgEHfqk1&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QEKzENejtRVGVhrXN90hQrjPdScecGnnBO9Fp_4u5_BsQ&oe=6672B625",
+            "image2": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438299708_968304238326200_8771554220336315237_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bvP5Q4zzpWMQ7kNvgGjBSqB&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QHvi3Kdy8REgCRzoQWwfXzKCIXMBPdz_vpi7wxdQMy2_g&oe=6672D40A"
+        },
+        {
+            "id": "02",
+            "name": "Civic",
+            "model": "Type R",
+            "Marca": "Honda",
+            "año": "2024",
+            "image": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438293838_854587213355737_7794082907476267511_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=G2HVd6TCGN0Q7kNvgHR2BSa&_nc_oc=AdjKtn9GrPO9y75_OsHA2M1967fhjJVErBJUW5GFgJ5Ob1X9W2J3nLIuG0uzotNraFt6LKWF83UlOqNrzel6wrcx&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QGEdNyFunQLEZA3I0fZEa1mLMhR87c_07onJBAW4ATAWQ&oe=6672B3DB",
+            "image2": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438299694_467986812256796_8444175431890862165_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_UJUE3t3Ih8Q7kNvgENrUEH&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QE2vkyIvsX-2vZ4wvzHdbq4Y0RqEz-mF7f2RHq5jSAwww&oe=6672BC4D"
+        },
+        {
+            "id": "03",
+            "name": "Supra",
+            "model": "GR",
+            "Marca": "Toyota",
+            "año": "2024",
+            "image": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438293772_1096461458078535_8427253742155930467_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=plrjRFboY6kQ7kNvgFS44jF&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QEAStJ5jP27N-jJJXikX_nS3Cl2c0rakg350leyBPrUgQ&oe=6672D3F9",
+            "image2": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438299693_765064619029466_1607140126355708485_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QEhPsr5VGBMQ7kNvgHsFdDZ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QGd2p0-_D9YERrOQoYpVghBYqYsNerOZCoJqQhBRdWJyg&oe=6672CF8A"
+        },
+        {
+            "id": "04",
+            "name": "Model 3",
+            "model": "Performance",
+            "Marca": "Tesla",
+            "año": "2024",
+            "image": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438293798_1392943681370190_531896498808595144_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=slbeYFs41YwQ7kNvgGyCgGG&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QG2mxOIc1DtFVmYmGiEkpzUcjbD17bkviQMMIfEMTFdoA&oe=6672CCFE",
+            "image2": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438293690_898931485324491_374776973717033394_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7RnFa4KALSkQ7kNvgHO5PT5&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QGth_vwfinB9bptWI7YFu3Ehd1JazSNtVim20lpY5e6ZA&oe=6672CAC1"
+        },
+        {
+            "id": "05",
+            "name": "Huracán",
+            "model": "EVO",
+            "Marca": "Lamborghini",
+            "año": "2024",
+            "image": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438299676_7595932203819853_2399756480532271238_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ze-3KqVVwrgQ7kNvgHiuxD6&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QGOLLpTZZRupVjQzcMAk_rFayb7oenxWZ_bWeqIMfUlCw&oe=6672C3DD",
+            "image2": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438293736_1496349267905736_1366883977268809631_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Gj1fzWlU7DEQ7kNvgEz2z7h&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QF4Pvs-bKXmbJma1fx-w5AQWSG3y3g3bTX_GKyJwXei8g&oe=6672AA3B"
+        },
+        {
+            "id": "06",
+            "name": "488 Pista",
+            "model": "Pista",
+            "Marca": "Ferrari",
+            "año": "2018",
+            "image": "https://scontent.xx.fbcdn.net/v/t1.15752-9/440990150_367252319662567_7516579945693757299_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=kquPsgTHGJ8Q7kNvgGvkVu-&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QE9HwfyNc41uzgiyRQnSRv7t_M3JtsP8ykhxx-ZqjzmyQ&oe=6672D109https://scontent.xx.fbcdn.net/v/t1.15752-9/440990150_367252319662567_7516579945693757299_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=kquPsgTHGJ8Q7kNvgGvkVu-&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QE9HwfyNc41uzgiyRQnSRv7t_M3JtsP8ykhxx-ZqjzmyQ&oe=6672D109",
+            "image2": "https://scontent.xx.fbcdn.net/v/t1.15752-9/438293701_914167783729400_7804863531316326703_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XZs00MUZbGAQ7kNvgEcCa_Y&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QFpJjr-I0KBMEtSzQ1olOm5MFEErLpU-aAwD6WnyA9Yww&oe=6672B85D"
+        }
+    ]
+}

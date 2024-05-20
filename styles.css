@@ -54,7 +54,7 @@ img{
     .background>img{
         position: fixed;
         width: 100%;
-        height: 110vh;
+        height: 110%;
         z-index: -5;
     }
     

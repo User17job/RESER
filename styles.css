@@ -51,6 +51,12 @@ img{
         height: 100%;
         display: block;
     }
+    .background>img{
+        position: fixed;
+        width: 100%;
+        height: 110vh;
+        z-index: -5;
+    }
     
     #cardAuto{
   
